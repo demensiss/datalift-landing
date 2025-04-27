@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f9fc;
+    color: #333;
+  }
+  
+  header {
+    background-color: #117ABB;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .slogan {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .offer h2,
+  .form-section h2 {
+    color: #117ABB;
+  }
+  
+  .offer ul {
+    padding-left: 1.2rem;
+  }
+  
+  .offer ul li {
+    margin-bottom: 0.6rem;
+  }
+  
+  .seo-description {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #117ABB;
+    color: white;
+    border: none;
+    padding: 0.9rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background: #e9ecef;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
