@@ -25,6 +25,7 @@
   <meta name="twitter:image" content="https://example.com/path/to/your-image.jpg">
   
   <link rel="stylesheet" href="style.css">
+  <script src="https://tally.so/widgets/embed.js"></script>
 </head>
 <body>
   <header>
@@ -58,7 +59,6 @@
   <footer>
     <p>&copy; 2025 DataLift.A. Wszystkie prawa zastrzeżone.</p>
   </footer>
-
   <script>
     // Włączanie przycisku po zaznaczeniu checkboxa
     const checkbox = document.getElementById('privacy-policy');
@@ -67,6 +67,7 @@
     checkbox.addEventListener('change', function() {
         submitButton.disabled = !checkbox.checked;
     });
+    Tally.loadEmbeds();
   </script>
 </body>
 </html>
